@@ -1,0 +1,70 @@
+ /* widget style */
+ .customwidget-offlineonline {
+    display: block;
+    box-shadow: none !important;
+    display: flex;
+    align-items: center;
+}
+
+.customwidget-offlineonline-symbol {
+    /* circle */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    /* the magic */
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.customwidget-offlineonline-symbol--online {
+    background-color: #16a085;
+}
+
+.customwidget-offlineonline-symbol--offline {
+    background-color: red;
+    /* Add animation */
+    -webkit-animation-name: alertOffline;
+    -webkit-animation-duration: 2s;
+    animation-name: alertOffline;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: 10;
+}
+
+.customwidget-offlineonline-label {
+    padding-left: 3px;
+}
+
+.customwidget-offlineonline-label--offline {
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+.customwidget-offlineonline-label--offline {
+    color: black;
+}
+
+
+/* Animation */
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes alertOffline {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: pink;
+    }
+}
+
+/* Standard syntax */
+@keyframes alertOffline {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: pink;
+    }
+}
