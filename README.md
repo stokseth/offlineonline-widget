@@ -3,7 +3,7 @@
 Simple OfflineOnline widget built for version 4.x of the ArcGIS API for Javascript
 
 ![share-widget-offline](https://github.com/stokseth/offlineonline-widget/blob/master/images/offline.png?raw=true)​
-![share-widget-online](https://github.com/stokseth/offlineonline-widget/blob/master/images/offline.png?raw=true)​
+![share-widget-online](https://github.com/stokseth/offlineonline-widget/blob/master/images/online.png?raw=true)​
 
 ## Features:
 
@@ -12,6 +12,7 @@ Simple OfflineOnline widget built for version 4.x of the ArcGIS API for Javascri
 3.  Customizable how to check online
     - Polling URL (https://ipv4.icanhazip.com) - [default]
     - [Navigator.onLine](https://developer.mozilla.org/en-US/docs/Web/API/NavigatorOnLine/onLine)
+4. Change style using CSS
 
 
 ## OfflineOnlineWidget
