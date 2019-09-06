@@ -38,11 +38,11 @@ Simple OfflineOnline widget built for version 4.x of the ArcGIS API for Javascri
 
 \* = aliased
 
-## ShareViewModel
+## OfflineOnlineViewModel
 
 ### Constructor:
 
-#### new **ShareViewModel(_properties?_)**
+#### new **OfflineOnlineViewModel(_properties?_)**
 
 ##### Property Overview:
 
@@ -62,20 +62,20 @@ Simple OfflineOnline widget built for version 4.x of the ArcGIS API for Javascri
 ##### Default:
 
 ```
-const share = new OfflineOnlineWidget({});
-view.ui.add("top-right);
+const Offlineonline = new OfflineOnlineWidget({});
+view.ui.add(Offlineonline, "top-right);
 ```
 
 ##### Custom:
 
 ```
- const share = new OfflineOnlineWidget({
+ const Offlineonline = new OfflineOnlineWidget({
      hideOnline: false,
      onlineLabel: "Connected",
      pollingUrl: "example.com/ping",
      pollingResponseType: "json"
  });
-view.ui.add("top-right);
+view.ui.add(Offlineonline, "top-right);
 ```
 
 ## Resources
